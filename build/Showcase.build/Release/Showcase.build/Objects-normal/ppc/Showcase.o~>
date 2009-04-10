@@ -1,0 +1,9 @@
+/Users/julius/Code/qs/Showcase/Showcase.m: In function '-[Showcase windowDidLoad]':
+/Users/julius/Code/qs/Showcase/Showcase.m:45: warning: 'QSWindow' may not respond to '-setWindowProperty:forKey:'
+/Users/julius/Code/qs/Showcase/Showcase.m:45: warning: (Messages without a matching method signature
+/Users/julius/Code/qs/Showcase/Showcase.m:45: warning: will be assumed to return 'id' and accept
+/Users/julius/Code/qs/Showcase/Showcase.m:45: warning: '...' as arguments.)
+/Users/julius/Code/qs/Showcase/Showcase.m:62: error: 'SCSearchObjectView' undeclared (first use in this function)
+/Users/julius/Code/qs/Showcase/Showcase.m:62: error: (Each undeclared identifier is reported only once
+/Users/julius/Code/qs/Showcase/Showcase.m:62: error: for each function it appears in.)
+/Users/julius/Code/qs/Showcase/Showcase.m:62: error: syntax error before ')' token
