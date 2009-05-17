@@ -10,6 +10,10 @@
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		BB1A0E9C0BD588420049CB64 /* Showcase.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB1A0E9B0BD588420049CB64 /* Showcase.nib */; };
 		BB79B99D0C11A9B6002CF9B7 /* ShowcasePrefPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = BB79B99C0C11A9B6002CF9B7 /* ShowcasePrefPane.nib */; };
+		C63BD8980FC022F8001D4627 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8940FC022F8001D4627 /* QSInterface.framework */; };
+		C63BD8990FC022F8001D4627 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8950FC022F8001D4627 /* QSFoundation.framework */; };
+		C63BD89A0FC022F8001D4627 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8960FC022F8001D4627 /* QSEffects.framework */; };
+		C63BD89B0FC022F8001D4627 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63BD8970FC022F8001D4627 /* QSCore.framework */; };
 		C66C51EA0D28B9FC008BF400 /* NSImage-Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C51E30D28B9FC008BF400 /* NSImage-Extra.m */; };
 		C66C51EB0D28B9FC008BF400 /* ObjectRep.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C51E50D28B9FC008BF400 /* ObjectRep.m */; };
 		C66C51EC0D28B9FC008BF400 /* QSMySearchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C51E70D28B9FC008BF400 /* QSMySearchObject.m */; };
@@ -17,10 +21,6 @@
 		C66C51F40D28BAAE008BF400 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66C51F30D28BAAE008BF400 /* Quartz.framework */; };
 		C69EF6FC0DCD66CB00E512A4 /* SCCollectingSearchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C69EF6FB0DCD66CB00E512A4 /* SCCollectingSearchObject.m */; };
 		C69EF7900DCE82E400E512A4 /* SCBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C69EF78F0DCE82E400E512A4 /* SCBackground.m */; };
-		C69EF9EC0DCE9F0900E512A4 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69EF9E80DCE9F0900E512A4 /* QSCore.framework */; };
-		C69EF9ED0DCE9F0900E512A4 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69EF9E90DCE9F0900E512A4 /* QSEffects.framework */; };
-		C69EF9EE0DCE9F0900E512A4 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69EF9EA0DCE9F0900E512A4 /* QSFoundation.framework */; };
-		C69EF9EF0DCE9F0900E512A4 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69EF9EB0DCE9F0900E512A4 /* QSInterface.framework */; };
 		C69EFA5D0DCEA27D00E512A4 /* QSCollectingSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C69EFA5C0DCEA27D00E512A4 /* QSCollectingSearchObjectView.m */; };
 		C69EFA720DCEA38600E512A4 /* SCSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C69EFA710DCEA38600E512A4 /* SCSearchObjectView.m */; };
 		E1EAB046068128A200774DFF /* Showcase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* Showcase.m */; };
@@ -34,6 +34,10 @@
 		8D1AC9740486D14A00FE50C9 /* Showcase.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Showcase.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1A0E9B0BD588420049CB64 /* Showcase.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Showcase.nib; sourceTree = "<group>"; };
 		BB79B99C0C11A9B6002CF9B7 /* ShowcasePrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ShowcasePrefPane.nib; sourceTree = "<group>"; };
+		C63BD8940FC022F8001D4627 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = frameworks/QSInterface.framework; sourceTree = "<group>"; };
+		C63BD8950FC022F8001D4627 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = frameworks/QSFoundation.framework; sourceTree = "<group>"; };
+		C63BD8960FC022F8001D4627 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = frameworks/QSEffects.framework; sourceTree = "<group>"; };
+		C63BD8970FC022F8001D4627 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = frameworks/QSCore.framework; sourceTree = "<group>"; };
 		C66C51E20D28B9FC008BF400 /* NSImage-Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage-Extra.h"; sourceTree = "<group>"; };
 		C66C51E30D28B9FC008BF400 /* NSImage-Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage-Extra.m"; sourceTree = "<group>"; };
 		C66C51E40D28B9FC008BF400 /* ObjectRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectRep.h; sourceTree = "<group>"; };
@@ -47,10 +51,6 @@
 		C69EF6FB0DCD66CB00E512A4 /* SCCollectingSearchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCollectingSearchObject.m; sourceTree = "<group>"; };
 		C69EF78E0DCE82E400E512A4 /* SCBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBackground.h; sourceTree = "<group>"; };
 		C69EF78F0DCE82E400E512A4 /* SCBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBackground.m; sourceTree = "<group>"; };
-		C69EF9E80DCE9F0900E512A4 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = ../B5X/Quicksilver/build/Release/QSCore.framework; sourceTree = SOURCE_ROOT; };
-		C69EF9E90DCE9F0900E512A4 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = ../B5X/Quicksilver/build/Release/QSEffects.framework; sourceTree = SOURCE_ROOT; };
-		C69EF9EA0DCE9F0900E512A4 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = ../B5X/Quicksilver/build/Release/QSFoundation.framework; sourceTree = SOURCE_ROOT; };
-		C69EF9EB0DCE9F0900E512A4 /* QSInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = QSInterface.framework; path = ../B5X/Quicksilver/build/Release/QSInterface.framework; sourceTree = SOURCE_ROOT; };
 		C69EFA5B0DCEA27D00E512A4 /* QSCollectingSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCollectingSearchObjectView.h; sourceTree = "<group>"; };
 		C69EFA5C0DCEA27D00E512A4 /* QSCollectingSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCollectingSearchObjectView.m; sourceTree = "<group>"; };
 		C69EFA700DCEA38600E512A4 /* SCSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSearchObjectView.h; sourceTree = "<group>"; };
@@ -67,10 +67,10 @@
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
 				C66C51F40D28BAAE008BF400 /* Quartz.framework in Frameworks */,
-				C69EF9EC0DCE9F0900E512A4 /* QSCore.framework in Frameworks */,
-				C69EF9ED0DCE9F0900E512A4 /* QSEffects.framework in Frameworks */,
-				C69EF9EE0DCE9F0900E512A4 /* QSFoundation.framework in Frameworks */,
-				C69EF9EF0DCE9F0900E512A4 /* QSInterface.framework in Frameworks */,
+				C63BD8980FC022F8001D4627 /* QSInterface.framework in Frameworks */,
+				C63BD8990FC022F8001D4627 /* QSFoundation.framework in Frameworks */,
+				C63BD89A0FC022F8001D4627 /* QSEffects.framework in Frameworks */,
+				C63BD89B0FC022F8001D4627 /* QSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,10 +111,10 @@
 		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C69EF9E80DCE9F0900E512A4 /* QSCore.framework */,
-				C69EF9E90DCE9F0900E512A4 /* QSEffects.framework */,
-				C69EF9EA0DCE9F0900E512A4 /* QSFoundation.framework */,
-				C69EF9EB0DCE9F0900E512A4 /* QSInterface.framework */,
+				C63BD8940FC022F8001D4627 /* QSInterface.framework */,
+				C63BD8950FC022F8001D4627 /* QSFoundation.framework */,
+				C63BD8960FC022F8001D4627 /* QSEffects.framework */,
+				C63BD8970FC022F8001D4627 /* QSCore.framework */,
 				C66C51F30D28BAAE008BF400 /* Quartz.framework */,
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
 				7FC20C8107FB741700FDD3CA /* Other Frameworks */,
@@ -269,8 +269,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(QSFrameworks)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../B5X/Quicksilver/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -296,8 +298,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(QSFrameworks)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../B5X/Quicksilver/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/frameworks\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
